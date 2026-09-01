@@ -1,0 +1,20 @@
+{
+  "name": "mergehub",
+  "interface": {
+    "displayName": "MergeHub"
+  },
+  "plugins": [
+    {
+      "name": "mergehub-requirement-workflow",
+      "source": {
+        "source": "local",
+        "path": "./plugins/mergehub-requirement-workflow"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
