@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "mergehub_requirement_workflow": {
+      "command": "python3",
+      "args": ["./scripts/mcp_server.py"],
+      "cwd": ".",
+      "env_vars": [
+        "MERGEHUB_REQUIREMENT_WORKFLOW_DIR",
+        "MERGEHUB_API_BASE_URL",
+        "MERGEHUB_TOKEN_NAME",
+        "MERGEHUB_TOKEN_VALUE"
+      ]
+    }
+  }
+}
